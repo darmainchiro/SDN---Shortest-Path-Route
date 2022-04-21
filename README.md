@@ -22,3 +22,7 @@ Check RYU monitoring. An incoming packet occurs from host 1 (source) to destinat
 
 The process will get results where the destination is on switch 4 port 1 which is host 4. After the destination is found, the h1 process will occur to determine by iteration until the shortest path is found from the path that has been found.
 ![ss detection2](./images/detection2.png)
+
+The path found is from Switch 1 port 1 to port 2 → Switch 2 port 2 to port 3 → Switch 4 port 2 to port 1.
+![ss result](./images/result.png)
+
